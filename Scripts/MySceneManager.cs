@@ -12,7 +12,7 @@ public static class MySceneManager
     public static event UnityAction<Scene> OnSceneLoaded;       // Событие после загрузки сцены
     public static event UnityAction<Scene> OnSceneUnloaded;     // Событие после выгрузки сцены
 
-    private static int _targetSceneId;
+    private static int _targetSceneId = 1;
     private static string _targetSceneName;
     private static bool _useIdForLoading;
 
